@@ -62,5 +62,38 @@ public bool ValidarFechaPub(){
     return lstBooks.Any(book => book.PublishedDate.Year == 2005);
 }
 
+// Operador Contains
+public IEnumerable<Book> ConseguirLibros(){
+    return lstBooks.Where(
+        book => (book.Categories ?? Array.Empty<String>()).Contains("Python"));
+}
+
+//Operador OrderBy
+public IEnumerable<Book> OrdenarLibros(){
+    return lstBooks.Where(
+        book => (book.Categories ?? Array.Empty<string>()).Contains("Java"))
+    .OrderBy(book => book.Title);
+}
+//Operador OrderByDescending
+public IEnumerable<Book> Libros450pag(){
+    return lstBooks.Where(
+        book => book.PageCount>450)
+        .OrderByDescending(book => book.PageCount);
+}
+
+//Operador Take
+public IEnumerable<Book> ObtenerLibrosTke(){
+    return lstBooks
+    .Where (book => (book.Categories ?? Array.Empty<String>()).Contains("Java"))
+    .OrderByDescending(book => book.PublishedDate).Take(3);
+}
+
+//Muestre los ultimos tres libros.
+
+public IEnumerable<Book> ObtenerLibrosTakeLast(){
+    return lstBooks
+    .Where (book => (book.Categories ?? Array.Empty<String>()).Contains("Java"))
+    .OrderBy(book => book.PublishedDate).TakeLast(3);
+}
 
 }

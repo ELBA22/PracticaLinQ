@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\APM02-064\\Desktop\\PracticaLinQ\\PracticaLinQ.csproj": {}
+    "/workspaces/PracticaLinQ/PracticaLinQ.csproj": {}
   },
   "projects": {
-    "C:\\Users\\APM02-064\\Desktop\\PracticaLinQ\\PracticaLinQ.csproj": {
+    "/workspaces/PracticaLinQ/PracticaLinQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APM02-064\\Desktop\\PracticaLinQ\\PracticaLinQ.csproj",
+        "projectUniqueName": "/workspaces/PracticaLinQ/PracticaLinQ.csproj",
         "projectName": "PracticaLinQ",
-        "projectPath": "C:\\Users\\APM02-064\\Desktop\\PracticaLinQ\\PracticaLinQ.csproj",
-        "packagesPath": "C:\\Users\\APM02-064\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APM02-064\\Desktop\\PracticaLinQ\\obj\\",
+        "projectPath": "/workspaces/PracticaLinQ/PracticaLinQ.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/PracticaLinQ/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APM02-064\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/opt/dotnet/7.0.400/sdk/7.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }

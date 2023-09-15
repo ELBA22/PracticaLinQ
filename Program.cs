@@ -14,14 +14,18 @@ internal class Program
         /* imprimirValores(queries.LibrosAndroid2005()); */
        /*  imprimirValores(queries.Libros250Pag()); */
         /* Console.WriteLine(queries.verificarStatus() ? "Todos los libros contienen un status" : "Al menos uno de los libros no contiene un status"); */
-        Console.WriteLine(queries.ValidarFechaPub());
+       /*  Console.WriteLine(queries.ValidarFechaPub());
         if (queries.ValidarFechaPub())
         {
             imprimirValores(queries.LibrosDelYear(2005));
         } else
         {
             Console.WriteLine("No hay libros con ese año");
-        }
+        } */
+       /*  imprimirValores(queries.ConseguirLibros()); */
+       /* imprimirValores(queries.OrdenarLibros()); 
+       /* imprimirValores(queries.Libros450pag()); */
+        /* imprimirValores(queries.ObtenerLibrosTke()); */
     }
     
     
